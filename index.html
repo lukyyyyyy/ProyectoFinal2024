@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RoundTable | Home</title>
+  <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body class="bg-black">
+
+<header>
+  <nav class="navbar navbar-expand-lg bg-black navbar-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" width="30" height="24">
+        <img src="./assets/logo.png" width="50" height="50">
+      </a>
+      <a class="navbar-brand" style="padding-left: 10px;">RoundTable</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav" style="padding-right: 100px;">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link " href="./historia.html">Historia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="./toques.html">Toques</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="./miembros.html">Miembros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="./canciones.html">Canciones</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./plataformas.html">Plataformas</a>
+
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="video-slider-container">
+    <div class="video-slider">
+      <div class="slide" id="video1">
+
+
+        <video autoplay muted loop>
+          <source src="./assets/video1.mp4" type="video/mp4">
+
+        </video>
+
+
+
+      </div>
+
+      <div class="slide" id="video2">
+        <video autoplay muted loop>
+          <source src="./assets/video2.mp4" type="video/mp4">
+
+        </video>
+      </div>
+
+      <div class="slide" id="video2">
+        <video autoplay muted loop>
+          <source src="./assets/video3.mp4" type="video/mp4">
+
+        </video>
+      </div>
+
+      <div class="slide" id="video2">
+        <video autoplay muted loop>
+          <source src="./assets/video4.mp4" type="video/mp4">
+
+        </video>
+      </div>
+
+    </div>
+
+    <button class="left slide-navigation" onclick="changeSlide(-1)">
+      <p><</p>
+    </button>
+
+    <button class="right slide-navigation" onclick="changeSlide(1)">
+      <p>></p>
+    </button>
+  </div>
+
+  <div class="notificationdiv">
+    <button id="notificationButton" onclick="requestNotificationPermission()">Notificaciones</button>
+  </div>
+
+</header>
+
+
+<main>
+  <section class="bg-image">
+    <div class="container">
+      <div class="content">
+        <h2>¿Quieres saber mas de nuestra banda?</h2>
+        <p>No te pierdas lo ultimo que pasa dejandonos tu correo.</p>
+      </div>
+
+      <form class="form">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"></label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">(Dando click al boton aceptas una suscripcion a recibir correos de
+            RoundTable©;
+            Tu correo no sera compartido con ninguna entidad).</div>
+        </div>
+        <button type="submit" class="btn btn-warning rounded-0">Enviar</button>
+      </form>
+    </div>
+
+    <img class="background-image" src="./assets/banner.jpg" alt="Imagen de fondo">
+  </section>
+
+<section class="bg-image">
+    <div class="container">
+      <div class="content">
+        <h2>Gracias por confiar en nostotros y recuerda</h2>
+        <h1>Jamás nos rendimos ;).</h1>
+      </div>
+
+</main>
+
+
+
+
+
+<footer>
+
+  <div class="container-fluid text-center white-border border border-warning p-3 container text-center">
+
+    <div class="row align-items-center bg-black custom-text-color">
+
+      <div class="col">
+        <p class="h4">Contacto</p>
+        <div class="mb-3">
+          <p class="text-warning text-decoration-none">+57 312-560-3670</p>
+        </div>
+        <div class="mb-3">
+          <p class="text-warning text-decoration-none">+57 310-355-0327</p>
+        </div>
+        <div class="mb-3">
+          <p class="text-warning text-decoration-none">roundtablerockband@gmail.com</p>
+        </div>
+      </div>
+      <div class="col h4">
+        <p>Redes</p>
+        <div class="mb-3">
+        <a href="https://www.instagram.com/roundtable.rb/" class="text-decoration-none">
+          <img src="./assets/IG-logo.png" alt="Instagram Logo" class="img-fluid" style="height: 1.0em;" >
+          <p class="text-warning text-decoration-none" style="display: inline-block; margin-left: 10px;">Instagram</p>
+        </a>
+        </div>
+
+        <div class="mb-3">
+        <a href="https://twitter.com/RoundTable_RB" class="text-decoration-none">
+          <img src="./assets/twitter-logo.png" alt="X Logo" class="img-fluid" style="height: 1.0em;"  >
+          <p class="text-warning text-decoration-none" style="display: inline-block; margin-left: 10px;">Twitter(X)</p>
+        </a>
+        </div>
+
+        <div class="mb-3">
+        <a href="https://www.tiktok.com/@roundtable_rockband?lang=en" class="text-decoration-none"> 
+          <img src="./assets/tiktok-logo.png" alt="Tiktok Logo" class="img-fluid" style="height: 1.0em;" >
+          <p class="text-warning text-decoration-none" style="display: inline-block; margin-left: 10px; padding-right: 30px;">Tiktok</p>
+        </a>
+        </div>
+      </div>
+      <div class="col h4">
+        <p>Comunidad</p>
+        <div class="mb-3">
+          <p class="text-warning text-decoration-none" style="color: #be8e00c0;">(Pronto)</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+  <script src="./script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

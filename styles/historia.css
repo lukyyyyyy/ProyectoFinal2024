@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    margin: 150px auto;
+    
+}
+#imagen-historia1
+
+{
+   max-width: 250px;
+}

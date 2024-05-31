@@ -1,0 +1,227 @@
+body {
+    background-color: black;
+}
+
+
+
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.notificationdiv {
+    float: right;
+    padding-right: 102px;
+ }
+ 
+ #notificationButton  {
+    font-size: 17px;
+    padding: -25px 25px;
+    cursor: pointer;
+    display: inline-block;  
+    background-color: #ffc107;
+    transform: rotate(-90deg);
+    overflow: hidden;
+    padding: 10px;
+    text-align: left;
+    font-family: Arial!important;
+    border-radius: 10px;
+    width: 170px;
+    top: 206px;
+    height: 40px;
+    position: fixed;
+    word-spacing: 2px;
+    right: -68px;
+ }
+ 
+ .custom-box {
+    max-width: 20%;
+    margin: 0px auto;
+    overflow: hidden;
+    border: 30px solid #333;
+    box-sizing: border-box;
+    height: 1500px;
+    background-color: #333;
+    position: relative;
+    top: 10000px;
+    right: 1800px;
+ }
+ 
+ .custom-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ 
+ .video-slider-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+   
+ }
+ 
+ .video-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+ }
+ 
+ .slide {
+    min-width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative; /* Change positioning to relative */
+    
+ }
+ 
+ .slide img
+ {
+    width: 80px;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ 
+ .slide img:hover
+ {
+    opacity: 60%;
+ }
+
+ .slide video {
+    position: absolute;
+    top: 0; /* Position the video at the top */
+    left: 0; /* Anchor the video to the top-left corner */
+    width: 100%; /* Ensure the video takes the full width */
+    height: auto; /* Let the browser calculate the height to maintain aspect ratio */
+}
+
+ video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+ }
+
+ .slide-navigation {
+    position: absolute;
+    top: 50%;
+    background: none;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    height: 50px;
+    z-index: 1000; /* Ensure the buttons are above other content */
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.slide-navigation img {
+    height: 100%;
+}
+
+.slide-navigation:hover {
+    background: none;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.bg-image {
+    position: relative;
+    height: 400px; /* Establece la altura deseada para la sección */
+    color: #ffc107; /* Color del texto */
+    text-align: center; /* Alinea el texto al centro */
+    
+  }
+  
+  .container {
+    position: relative;
+    z-index: 1; /* Asegura que el contenido esté por encima de la imagen de fondo */
+    height: 100%;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5; /* Opacidad de la imagen de fondo */
+  }
+  
+  .content {
+    padding: 50px; /* Añade espacio alrededor del texto */
+  }
+
+  #emailHelp{
+    color: #ffc107;
+  }
+
+  .custom-text-color {
+   color: #ffc107; /* Color personalizado */
+ }
+
+ .custom-text-color2 {
+   color: #be8e00c0; /* Color personalizado */
+ }
+
+
+ a {
+   text-decoration: none; /* Remove underline */
+   color: inherit; /* Inherit text color */
+ }
+
+ #formMail{
+
+   position: absolute;
+   right: 0;
+   padding-right: 250px;
+ }
+
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+.wrapper {
+   margin: 150px auto;
+   
+}
+#imagen-historia1
+
+{
+  max-width: 450px;
+  float: left;
+  margin-right: 20px;
+}
+
+#imagen-historia2
+
+{
+  max-width: 450px;
+  float: right;
+
+  margin-left: 20px;
+}
+
+.textbox{
+
+   color: white;
+   
+}
